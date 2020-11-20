@@ -35,6 +35,18 @@ button {
 }
 
 @media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  img {
+    height: 20px;
+  }
+
   .main {
     background-color: white;
     text-align: center;
