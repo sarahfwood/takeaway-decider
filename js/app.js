@@ -1,5 +1,5 @@
 // Takeaway Options
-const takeawayOptions = ['Burgers', 'Fish and Chips', 'Fried Chicken', 'Grilled Chicken', 'Kebab', 'Curry', 'Sushi', 'Pasta', 'Pizza', 'Salad'];
+const takeawayOptions = ['McDonalds', 'KFC', 'Domino\'s Pizza', 'Pizza Hut', 'Chinese', 'Indian', 'Italian', 'Burger King', 'Kebab', 'Turkish', 'Carribean', 'African', 'Thai', 'Nando\'s', 'Subway'];
 
 // Event listener to genrate random item from takeaway options array
 document.getElementById('decider-btn').addEventListener('click', function() {
