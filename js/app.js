@@ -7,5 +7,5 @@ const takeawayOptions = ['Burgers', 'Fish and Chips', 'Fried Chicken', 'Grilled 
 
 // takeaway randomiser
 const randomTakeaway = () => {
-  return Math.floor(Math.random(takeawayOptions)) * 10;
-}
+  return Math.floor(Math.random() * takeawayOptions.length);
+};
