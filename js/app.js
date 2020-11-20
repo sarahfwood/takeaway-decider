@@ -1,17 +1,15 @@
+// Takeaway Options
+const takeawayOptions = ['Burgers', 'Fish and Chips', 'Fried Chicken', 'Grilled Chicken', 'Kebab', 'Curry', 'Sushi', 'Pasta', 'Pizza', 'Salad'];
+
+// Event listener to genrate random item from takeaway options array
 document.getElementById('decider-btn').addEventListener('click', function() {
-  document.getElementById('result').textContent = 'test';
+  document.getElementById('result').textContent = randomTakeaway(takeawayOptions);
 });
 
 
-const takeawayOptions = ['Burgers', 'Fish and Chips', 'Fried Chicken', 'Grilled Chicken', 'Kebab', 'Curry', 'Sushi', 'Pasta', 'Pizza', 'Salad'];
+// Function to randomise item from takeaway options
+const randomTakeaway = (takeawayOptions) => {
+  return takeawayOptions[Math.floor(Math.random() * takeawayOptions.length)];
+};
 
-// takeaway randomiser
-// const randomTakeaway = () => {
-//   return Math.floor(Math.random() * takeawayOptions.length);
-// };
 
-function random(takeaway) {
-  return takeaway[Math.floor(Math.random() * takeawayOptions.length)];
-  
-}
-console.log(random(takeaway));
