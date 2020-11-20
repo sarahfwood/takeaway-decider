@@ -3,7 +3,7 @@ const takeawayOptions = ['Burgers', 'Fish and Chips', 'Fried Chicken', 'Grilled 
 
 // Event listener to genrate random item from takeaway options array
 document.getElementById('decider-btn').addEventListener('click', function() {
-  document.getElementById('result').textContent = randomTakeaway(takeawayOptions);
+  document.getElementById('result').textContent = 'You have chosen: ' + randomTakeaway(takeawayOptions);
 });
 
 // Function to randomise item from takeaway options
