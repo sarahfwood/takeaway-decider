@@ -3,3 +3,11 @@ body {
   text-align: center;
   padding-top: 30%;
 }
+
+header, div, footer {
+  background-color: white;
+}
+
+footer {
+  
+}
