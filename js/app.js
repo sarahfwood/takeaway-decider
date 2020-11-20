@@ -6,10 +6,7 @@ document.getElementById('decider-btn').addEventListener('click', function() {
   document.getElementById('result').textContent = randomTakeaway(takeawayOptions);
 });
 
-
 // Function to randomise item from takeaway options
 const randomTakeaway = (takeawayOptions) => {
   return takeawayOptions[Math.floor(Math.random() * takeawayOptions.length)];
 };
-
-
