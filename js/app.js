@@ -3,10 +3,17 @@ const takeawayOptions = ['McDonalds', 'KFC', 'Domino\'s Pizza', 'Pizza Hut', 'Ch
 
 // Event listener to genrate random item from takeaway options array
 document.getElementById('decider-btn').addEventListener('click', function() {
-  document.getElementById('result').textContent = 'You have chosen: ' + randomTakeaway(takeawayOptions);
+  let result = document.getElementById('result');
+  result.classList.add('loading');
+  setTimeout(() => {
+    result.classList.remove('loading');
+    result.textContent = 'You have chosen: ' + randomTakeaway(takeawayOptions);
+  }, 1000);
 });
 
 // Function to randomise item from takeaway options
 const randomTakeaway = (takeawayOptions) => {
   return takeawayOptions[Math.floor(Math.random() * takeawayOptions.length)];
 };
+
+// Add loading, and stop user from multiple clicks
