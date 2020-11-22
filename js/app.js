@@ -10,6 +10,3 @@ document.getElementById('decider-btn').addEventListener('click', function() {
 const randomTakeaway = (takeawayOptions) => {
   return takeawayOptions[Math.floor(Math.random() * takeawayOptions.length)];
 };
-
-
-setTimeout(function() { randomTakeaway(); }, 5000);
