@@ -11,6 +11,7 @@ body {
   margin-left: 350px;
   margin-right: 350px;
   border: white 10px solid;
+  overflow: scroll;
 }
 
 footer {
