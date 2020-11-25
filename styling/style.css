@@ -66,36 +66,4 @@ button {
     outline: 0;
   }
 }
-/* 
-@media only screen and (max-device-width: 480px) {
-  h1 {
-    font-size: 20px;
-  }
 
-  h2 {
-    font-size: 15px;
-  }
-
-  img {
-    height: 15px;
-  }
-
-  .main {
-    background-color: white;
-    text-align: center;
-    margin-top: 25%;
-    margin-left: 50px;
-    margin-right: 50px;
-    border: white 10px solid;
-  }
-
-  button {
-    background-color: red;
-    padding: 40px 20px;
-    border-radius: 50%;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    outline: 0;
-  }
-} */
